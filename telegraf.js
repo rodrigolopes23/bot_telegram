@@ -27,7 +27,7 @@ class Telegraf extends Composer {
       ...DEFAULT_OPTIONS,
       ...options
     }
-    this.token = 1298442190:AAFXLkorTrSczfw-TidSEStISIlnt-xgb-w
+    this.token = token
     this.handleError = (err) => {
       console.error()
       console.error((err.stack || err.toString()).replace(/^/gm, '  '))
